@@ -1,0 +1,38 @@
+{"vegetables" : [ 
+    {
+        "id": 1,
+        "name" : "tomato",
+        "image": "/images/i1.png",
+        "water" : 12
+    },
+    {
+        "id": 2,
+        "name" : "basil",
+        "image": "/images/i2.png",
+        "water" : 12
+    },
+    {
+        "id": 3,
+        "name" : "potato",
+        "image": "/images/i3.png",
+        "water" : 1
+    },
+    {
+        "id": 4,
+        "name" : "kumara",
+        "image": "/images/i4.png",
+        "water" : 4
+    },
+    {
+        "id": 5,
+        "name" : "radish",
+        "image": "/images/i5.png",
+        "water" : 7
+    },
+    {
+        "id": 6,
+        "name" : "carrot",
+        "image": "/images/i6.png",
+        "water" : 7
+    }
+]}

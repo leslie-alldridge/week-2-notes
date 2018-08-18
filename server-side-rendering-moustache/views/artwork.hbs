@@ -1,0 +1,11 @@
+<img src="{{ artwork }}">
+<ul>
+    <li>Comments: </li>
+        {{#each comments}}
+            {{ this }} </br>
+        {{/each }}
+    <li>Artist: <a href="{{artist.url}}"target="_blank" class="artistClass">{{ artist.name }}</a></li>
+    <li>License: {{ license.name }}</li>
+</ul>
+
+

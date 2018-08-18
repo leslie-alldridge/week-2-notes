@@ -1,0 +1,16 @@
+{
+  "name": "muffins",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kakapo-2018/ascii-art-reader.git",
+  "author": "kyokopl <kmpohe@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^23.5.0",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+   "start": "node index.js", 
+   "test": "jest --watch --noStackTrace"
+  }
+}

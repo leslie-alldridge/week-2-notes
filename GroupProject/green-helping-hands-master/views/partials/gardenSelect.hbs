@@ -1,0 +1,18 @@
+
+<div class="container containerVege">
+    <div class="row">
+    {{#each vegetables}}
+
+    <div class="vege col-sm-2">
+        <img src="{{image}}"id="drag{{id}}" data-water-required="{{water}}" draggable="true" ondragstart="drag(event)" width="336" height="69" onclick="addToGarden()"/>
+    </div>
+    {{/each }}
+
+    <div id="myDataStore" style="display:none;" data-total-water-required="0"></div>
+    <div id="waterRequired-1"></div>
+    <div id="waterRequired-2"></div>
+    <div id="waterRequired-3"></div>
+    <div id="waterRequired-4"></div>
+
+</div>
+</div>

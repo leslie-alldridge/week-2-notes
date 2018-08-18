@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.cover{
+    color: rgb(224, 119, 119);
+    background: url(./bg.jpg);
+    min-height: 900px;
+    background-repeat: no-repeat;
+}
+
+
+.grid-container {
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    padding:0px;
+}
+
+.top-row {
+    display: flex;
+    width: 250px;
+    height:50%;
+    
+}
+
+.bottom-row {
+    display:flex;
+    width: 250px;
+    height:50%;
+    
+}
+
+.x0-y0 {
+    height: 100%;
+    width: 50%;
+}
+
+.x1-y0 {
+    height: 100%;
+    width: 50%;
+}
+
+.x0-y1 {
+    height: 100%;
+    width: 50%;
+}
+
+.x1-y1 {
+    height: 100%;
+    width: 50%;
+}
+
+.defaultBackground {
+  background-color: rgba(71, 27, 10, 0.644)
+}
+
+.badMatch {
+    background-color: red;
+}
+
+.averageMatch {
+  background-color: rgba(71, 27, 10, 0.644)
+}
+
+.goodMatch {
+  background-color: green;
+}
+
+  
+  #landing-header {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding-top: 40vh;
+  }
+  
+  #landing-header h1 {
+    color: #fff;
+    font-size: 4em;
+    -webkit-text-stroke: 0.5px black;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .slideshow { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slideshow li { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 50s linear infinite; 
+  }
+  
+  .slideshow li:nth-child(1) { 
+   background-image: url(/images/g1.jpg)  }
+  .slideshow li:nth-child(2) { 
+    background-image: url(/images/g2.jpg);
+    animation-delay: 5s; 
+  }
+  .slideshow li:nth-child(3) { 
+    background-image: url(/images/g3.jpg);    animation-delay: 15s; 
+  }
+  .slideshow li:nth-child(4) { 
+    background-image: url(/images/g4.jpg);    animation-delay: 25s; 
+  }
+  .slideshow li:nth-child(5) { 
+    background-image: url(/images/g5.jpg);    animation-delay: 35s; 
+  }
+  
+  @keyframes imageAnimation { 
+    0% { 
+      opacity: 0; 
+      animation-timing-function: ease-in;
+    }
+    10% {
+      opacity: 1;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      opacity: 1
+    }
+    30% {
+      opacity: 0
+    }
+  }
+  
+  .no-cssanimations .slideshow li {
+      opacity: 1;
+  }
+  
+#drag1 {
+  width: 50px;
+  height: 50px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+#div1 {
+    height: 100%;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+    border: 1px solid black
+}
+
+#div2 {
+    height: 100%;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+    border: 1px solid black
+}
+
+#div3 {
+    height: 100%;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+    border: 1px solid black
+}
+
+#div4 {
+    height: 100%;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+    border: 1px solid black
+}
+
+.containerVege {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  padding-right: 1em;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.vege {
+
+  padding : 1em;
+}
+
+.headingText {
+  text-align: center;
+  color: rgba(157,193,131, 1);
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+}
+
+.gardenRow {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(157,193,131, 1);
+    color: white;
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    font-family: 'Lato', sans-serif;
+  }
+
+
+.howTo-container {
+  display: flex; 
+  margin: auto;
+  height: 100%;
+}
+
+.howTo-title {
+  margin-left: 100px;
+}
+
+.howTo {
+  width: 300px;
+
+}
+
+.howTo-pic-1 {
+  width: 300px;
+  height: 300px;
+}
+
+.help-centered {
+  margin-left: 400px;
+}
+
+
+.refresh-button{
+  display: flex; 
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding : 5em;
+}
